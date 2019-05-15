@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color:rgba(64,64,178,0.7);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  background-color: #FFF;
+  padding: 18px;
+  color: #f64c72;
+}
+
+.App {
+  padding: 30px;
+  background-color: #f64c72;
+  width: 80%;
+  margin: 50px auto;
+  box-shadow: 3px 5px 15px #f64c72;
+}
+
+input {
+  width: 80%;
+  border: 0;
+  padding: 10px;
+  background-color: #fff;
+}
+
+button {
+  width: 20%;
+  border: 0;
+  padding: 10px;
+  margin: 0;
+  outline: 0;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  background-color:rgba(64,64,178,0.7);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 20px 0px;
+}
+
+li span {
+  display: inline-block;
+  width: 60%;
+  color: #fff;
+  font-size: 20px;
+}
+
+li > button:first-of-type {
+  background-color: #fff;
+  color: #673AB7;
+  margin-right: 1%;
+  width: 19%;
+  box-shadow: 1px 2px 10px #eee;
+}
+
+li > button:last-of-type {
+  background-color:#f64c72;
+  color: #fff;
+  box-shadow: 1px 2px 10px #eee;
+}
+
+ul > form {
+  margin: 15px 0px;
+}
+
+ul > p {
+  color: #fff;
+  font-size: 20px;
+}
+
+ 
