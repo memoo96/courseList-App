@@ -12,8 +12,8 @@ class CourseList extends Component {
         return (
             <li>
                 <span>{this.props.courses.name}</span>
-                <button onClick={() => { this.toggleState() }}>Edit Course</button>
-                <button onClick={() => { this.props.deleteCourse(this.props.index) }}>Delete Course</button>
+                <button className="Edit" onClick={() => { this.toggleState() }}>Edit Course</button>
+                <button className="Delete" onClick={() => { this.props.deleteCourse(this.props.index) }}>Delete Course</button>
             </li>
         );
     }

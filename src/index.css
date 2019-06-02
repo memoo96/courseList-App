@@ -42,6 +42,10 @@ button {
   background-color:rgba(64,64,178,0.7);
 }
 
+.addCourse {
+
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -58,7 +62,8 @@ li span {
   font-size: 20px;
 }
 
-li > button:first-of-type {
+
+.Edit {
   background-color: #fff;
   color: #673AB7;
   margin-right: 1%;
@@ -66,7 +71,7 @@ li > button:first-of-type {
   box-shadow: 1px 2px 10px #eee;
 }
 
-li > button:last-of-type {
+.Delete {
   background-color:#f64c72;
   color: #fff;
   box-shadow: 1px 2px 10px #eee;
@@ -81,4 +86,27 @@ ul > p {
   font-size: 20px;
 }
 
- 
+
+@media (max-width:767px){
+  .App {
+    width: 100%;
+  }
+
+  input {
+    width: 65%;
+  }
+
+  button {
+    width: 35%;
+  }
+  li span {
+    width: 30%;
+  }
+  .Edit {
+    width: 32%;
+  }
+  .Delete {
+    width: 37%;
+  }
+
+}
